@@ -1,9 +1,10 @@
-import {TodoList} from "@/components/todo-list";
+
+import { TodoList } from "@/components/todo-list";
 
 export default function Home() {
   return (
-    <div className="font-sans">
+    <main className="min-h-screen flex items-center justify-center p-4 font-sans">
       <TodoList />
-    </div>
+    </main>
   );
 }
